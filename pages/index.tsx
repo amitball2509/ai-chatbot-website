@@ -4,7 +4,7 @@ import { Chat } from '../components/Chat';
 import NavBar from '../components/NavBar';
 import Description from '../components/Description';
 import ConectDama from '../components/ConectDama';
-hi
+
 function Home() {
   const bottomRef = useRef(null);
 
