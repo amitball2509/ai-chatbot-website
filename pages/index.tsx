@@ -6,7 +6,7 @@ import Description from '../components/Description';
 import ConectDama from '../components/ConectDama';
 
 function Home() {
-  const bottomRef = useRef(null);
+  const bottomRef = useRef(bottomRef);
 
   const scrollToBottom = () => {
     bottomRef.current.scrollIntoView({ behavior: 'smooth' });
